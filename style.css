@@ -1,14 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monsterrat, sans-serif;
+}
 
 
-body{
+body {
     background-image: url(/afbeelding/aesthetic-cloud-background-05bsl7m2e5bh01ki.jpg)
 }
 
-h1{
+
+h1 {
     color: aliceblue;
     font-family: 'Freehand', cursive;
     font-size: 60px;
-    justify-content: center;
-    display: flex;
     margin-top: 0em;
+    position: relative;
+    top: 1em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    
+}
+
+/*  TYPEWRITER - ANIMATION */
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+   
+}
+
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
