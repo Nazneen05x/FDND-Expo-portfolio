@@ -4,3 +4,11 @@ body{
     background-image: url(/afbeelding/aesthetic-cloud-background-05bsl7m2e5bh01ki.jpg)
 }
 
+h1{
+    color: aliceblue;
+    font-family: 'Freehand', cursive;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    margin-top: 0em;
+}
